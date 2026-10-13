@@ -20,9 +20,9 @@ Telegram-бот на базе `pyTelegramBotAPI`, который автомат�
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y git
-cd /srv
-git clone https://github.com/ilianovi3/tg-kksocial tg-kksocial
-cd tg-kksocial
+cd /opt
+git clone https://github.com/ilianovi3/tg-kkssave tg-kksave
+cd tg-kksave
 chmod +x install.sh
 ./install.sh
 cp .env.example .env
