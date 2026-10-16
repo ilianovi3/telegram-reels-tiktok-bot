@@ -3,26 +3,26 @@
 Telegram-бот на базе `pyTelegramBotAPI`, который автоматически исправляет ссылки **Instagram** и **TikTok**, добавляя префикс `kk` к домену. Это позволяет корректно отображать предпросмотр видео в Telegram.
 Использует сторонние сервисы kkinstagram.com и kktiktok.com для получения контента.
 
-## ✨ Функции
+## Функции
 - **Авто-замена:** `instagram.com` -> `kkinstagram.com`, `tiktok.com` -> `kktiktok.com`.
 - **Чистый чат:** Бот удаляет исходное сообщение пользователя после замены.
 - **Упоминание:** Бот тегает пользователя, приславшего ссылку.
 - **Docker-ready:** Полная поддержка развертывания через Docker и Docker Compose.
 
-## 🛠 Технологии
+## Технологии
 - [Python 3.11+](https://www.python.org/)
 - [PyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
 - [Poetry](https://python-poetry.org/) (управление зависимостями)
 - [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/)
 
-## 🚀 Быстрый старт
+## Быстрый старт
 ### Установка
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y git
 cd /opt
-git clone https://github.com/ilianovi3/tg-kkssave tg-kksave
-cd tg-kksave
+git clone https://github.com/ilianovi3/telegram-reels-tiktok-bot
+cd telegram-reels-tiktok-bot
 chmod +x install.sh
 ./install.sh
 cp .env.example .env
