@@ -1,4 +1,4 @@
-# TG KKSave 
+# telegram-reels-tiktok-bot
 
 Telegram-бот на базе `pyTelegramBotAPI`, который автоматически исправляет ссылки **Instagram** и **TikTok**, добавляя префикс `kk` к домену. Это позволяет корректно отображать предпросмотр видео в Telegram.
 Использует сторонние сервисы kkinstagram.com и kktiktok.com для получения контента.
